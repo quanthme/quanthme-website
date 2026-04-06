@@ -36,7 +36,7 @@ export default {
 				await client.sendAsync({
 					text: emailBody,
 					from: `Quanthme Website <${env.GMAIL_USER}>`,
-					to: 'contact@quanthme.com',
+					to: 'sloan3165@gmail.com',
 					subject: formTitle + (data.name ? ` from ${data.name}` : ""),
 				});
 
