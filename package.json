@@ -1,0 +1,17 @@
+{
+  "name": "quanthme-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.80.0"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "emailjs": "^5.0.0"
+  }
+}
